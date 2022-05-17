@@ -146,13 +146,33 @@ body {
 }
 
 #main-outlet.wrap {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   border-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
   border-style: solid;
   border-color: #e5e7eb;
   background-color: #fff;
-  padding: 1.25rem;
+}
+
+.desktop-view {
+  #main-outlet.wrap {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+  #main-outlet.wrap {
+    border-left-width: 1px;
+    border-right-width: 1px;
+  }
+  #main-outlet.wrap {
+    padding: 1.25rem;
+  }
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .my-5 {
