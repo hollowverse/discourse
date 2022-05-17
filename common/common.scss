@@ -145,6 +145,10 @@ body {
   }
 }
 
+.btn, .combo-box, .select-kit summary, button, .nav-pills li a, .d-editor-textarea-wrapper, input[type=text] {
+  border-radius: 0.375rem;
+}
+
 #main-outlet.wrap {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;

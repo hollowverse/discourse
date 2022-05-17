@@ -34,6 +34,10 @@
     }
   }
 
+  .btn, .combo-box, .select-kit summary, button, .nav-pills li a, .d-editor-textarea-wrapper, input[type=text] {
+    @apply rounded-md;
+  }
+
   #main-outlet.wrap {
     @apply bg-white my-3 border border-solid border-gray-200 border-x-0;
   }
