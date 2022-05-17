@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer components {
   html {
-    font-size: 100%;
+    font-size: 16px;
   }
 
   body {
     @apply bg-gray-100;
   }
-}
 
-@layer components {
   .lovely-gradient {
     @apply bg-gradient-to-r from-purple-400 via-blue-400 to-emerald-400
   }
@@ -25,7 +23,7 @@
   }
 
   .d-header-wrap {
-    @apply h-[70px] bg-white lovely-gradient-border border-b;
+    @apply h-[70px] bg-white lovely-gradient-border border border-solid border-gray-200 border-x-0 border-t-0;
   }
 
   .d-header {
@@ -37,6 +35,6 @@
   }
 
   #main-outlet.wrap {
-    @apply bg-white my-5 p-5 border;
+    @apply bg-white my-5 p-5 border border-solid border-gray-200;
   }
 }

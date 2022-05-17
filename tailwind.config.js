@@ -6,5 +6,7 @@ module.exports = {
   plugins: [],
   corePlugins: {
     backgroundOpacity: false,
+    borderOpacity: false,
+    preflight: false,
   },
 };
