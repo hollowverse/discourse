@@ -42,6 +42,10 @@
     @apply bg-white my-3 border border-solid border-gray-200 border-x-0;
   }
 
+  .custom-header-links .headerLink a {
+    @apply text-gray-500;
+  }
+
   .desktop-view {
     #main-outlet.wrap {
       @apply p-5  my-5 border-x;

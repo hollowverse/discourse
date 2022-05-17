@@ -7,6 +7,7 @@ module.exports = {
   corePlugins: {
     backgroundOpacity: false,
     borderOpacity: false,
+    textOpacity: false,
     preflight: false,
   },
 };
