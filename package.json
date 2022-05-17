@@ -1,0 +1,13 @@
+{
+  "author": "mk",
+  "license": "MIT",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./common/input.scss -o ./common/common.scss --watch"
+  },
+  "devDependencies": {
+    "eslint-config-discourse": "latest"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
