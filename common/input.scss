@@ -51,4 +51,11 @@
       @apply p-5  my-5 border-x;
     }
   }
+
+  /* Make Table of Content always expanded */
+  #d-toc li.d-toc-item > ul {
+    max-height: 500em !important;
+    overflow: visible !important;
+    opacity: 1 !important;
+  }
 }

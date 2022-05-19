@@ -178,6 +178,18 @@ body {
   }
 }
 
+/* Make Table of Content always expanded */
+
+#d-toc li.d-toc-item > ul {
+  max-height: 500em !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+}
+
+.visible {
+  visibility: visible;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
