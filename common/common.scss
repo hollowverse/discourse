@@ -186,6 +186,10 @@ body {
   opacity: 1 !important;
 }
 
+#reply-control.open {
+  height: 55vh;
+}
+
 .visible {
   visibility: visible;
 }
