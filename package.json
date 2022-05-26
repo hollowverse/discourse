@@ -2,12 +2,15 @@
   "author": "mk",
   "license": "MIT",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./common/input.scss -o ./common/common.scss --watch"
+    "tailwind-common": "npx tailwindcss -c ./tailwind.config.js -i ./common/input.scss -o ./common/common.scss --watch",
+    "tailwind-embedded": "npx tailwindcss -c ./tailwind.embedded.config.js -i ./common/input-embedded.scss -o ./common/embedded.scss --watch",
+    "tailwind": "run-p 'tailwind-common' 'tailwind-embedded'"
   },
   "devDependencies": {
     "eslint-config-discourse": "latest"
   },
   "dependencies": {
+    "npm-run-all": "^4.1.5",
     "tailwindcss": "^3.0.24"
   }
 }
