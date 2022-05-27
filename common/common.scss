@@ -187,7 +187,11 @@ body {
 }
 
 #reply-control.open {
-  height: 55vh !important;
+  height: 55vh;
+}
+
+.user-signature {
+  opacity: 0.7;
 }
 
 .visible {

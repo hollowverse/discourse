@@ -60,6 +60,10 @@
   }
 
   #reply-control.open {
-    height: 55vh !important;
+    height: 55vh;
+  }
+
+  .user-signature {
+    @apply opacity-70;
   }
 }
