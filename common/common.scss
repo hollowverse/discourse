@@ -186,7 +186,7 @@ body {
   opacity: 1 !important;
 }
 
-#reply-control.open {
+#reply-control.open, #reply-control.open.edit-title {
   height: 55vh;
 }
 
