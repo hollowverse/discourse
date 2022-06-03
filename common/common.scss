@@ -194,8 +194,143 @@ body {
   opacity: 0.7;
 }
 
+[data-theme="fact-wrapper"] {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  span.badge-notification {
+    display: none !important;
+  }
+  hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  [data-theme="fact-heading-inner"] {
+    display: flex;
+  }
+  [data-theme="fact-heading-inner"] {
+    align-items: center;
+  }
+  [data-theme="fact-heading-inner"] {
+    gap: 1.25rem;
+  }
+  [data-theme="fact-heading-inner"] {
+    [data-theme="fact-heading-image"] {
+      width: 75px;
+      height: 75px;
+    }
+    [data-theme="fact-heading-image"] {
+      overflow: hidden;
+    }
+    [data-theme="fact-heading-image"] {
+      border-radius: 0.375rem;
+    }
+    p {
+      margin: 0px;
+    }
+    p {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+    p {
+      font-weight: 600;
+    }
+    p:nth-of-type(1) {
+      color: #404040;
+    }
+    p:nth-of-type(2) {
+      color: #737373;
+    }
+  }
+  [data-theme="fact-body"] {
+    display: flex;
+  }
+  [data-theme="fact-body"] {
+    flex-direction: column;
+  }
+  [data-theme="fact-body"] {
+    gap: 0.625rem;
+  }
+  [data-theme="fact-body"] {
+    p, blockquote {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  }
+  [data-theme="fact-tags"] {
+    display: flex;
+  }
+  [data-theme="fact-tags"] {
+    flex-wrap: wrap;
+  }
+  [data-theme="fact-tags"] {
+    align-items: center;
+  }
+  [data-theme="fact-tags"] {
+    gap: 0.625rem;
+  }
+  [data-theme="fact-tags"] {
+    [data-theme="fact-tag"] {
+      margin: 0px;
+    }
+    [data-theme="fact-tag"] {
+      display: flex;
+    }
+    [data-theme="fact-tag"] {
+      gap: 0.25rem;
+    }
+    [data-theme="fact-tag"] {
+      border-radius: 9999px;
+    }
+    [data-theme="fact-tag"] {
+      background-color: #f3f4f6;
+    }
+    [data-theme="fact-tag"] {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+    [data-theme="fact-tag"] {
+      padding-top: 0.375rem;
+      padding-bottom: 0.375rem;
+    }
+    [data-theme="fact-tag"] {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    [data-theme="fact-tag"] {
+      color: #404040;
+    }
+    [data-theme="fact-date"] {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    [data-theme="fact-date"] {
+      color: #737373;
+    }
+  }
+  [data-theme="fact-source"] {
+    display: flex;
+  }
+  [data-theme="fact-source"] {
+    justify-content: flex-end;
+  }
+  [data-theme="fact-source"] {
+    a {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+    a {
+      color: #737373;
+    }
+  }
+}
+
 .visible {
   visibility: visible;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .my-3 {
@@ -206,6 +341,10 @@ body {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-\[70px\] {
@@ -229,6 +368,38 @@ body {
           user-select: none;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -248,6 +419,10 @@ body {
 
 .bg-white {
   background-color: #fff;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
 }
 
 .bg-gradient-to-r {
@@ -276,13 +451,42 @@ body {
   padding: 1.25rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -295,4 +499,8 @@ body {
 
 .text-transparent {
   color: transparent;
+}
+
+.text-neutral-500 {
+  color: #737373;
 }
